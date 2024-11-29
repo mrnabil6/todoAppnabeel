@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-auth.js"></script>
+
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>welcome to todo app</h2>
+
+            <label for="email">Email</label>
+            <input id="email" type="text" class="input-field" placeholder="email" required name="email">
+            <label for="password">password</label>
+            <input  id="password" type="password" class="input-field" placeholder="Password" required name="Password">
+            <button class="login-button" onclick="signUp()">register</button> <br> <br>
+            <button type="submit" onclick="Login()" class="login-button">Log In</button>
+     
+        <div class="footer">
+            <p>Don't have an account? <a href="#" style="color: #3498db; text-decoration: none;">Sign up</a></p>
+        </div>
+    </div>
+
+    <script src="./auth.js"></script>
+
+</body>
+</html>
