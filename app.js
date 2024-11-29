@@ -49,7 +49,7 @@ function post() {
     newTodo.appendChild(updateBtn)
     todoValue.value = " "
 }
-
+// new checking
 
 function removeTodo() {
     var btn = event.target;
